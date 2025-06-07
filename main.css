@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color:azure;
 }
 .home-img{
     width: 100%;
@@ -54,7 +55,7 @@
     background-color: rgb(241, 194, 107);
 }
 .btn-div{
-    display: flex;
+    display: none;
     align-items: center;
     gap: 30px;
 }

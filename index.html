@@ -22,6 +22,24 @@
         </div>
 
     </div>
+
+    <script>
+        const btn = document.querySelector('.more-btn');
+        const btnDiv = document.querySelector('.btn-div');
+        btn.addEventListener('click',()=>{
+            if (btnDiv.style.display === 'none' || btnDiv.style.display === ''){
+                btnDiv.style.display = 'flex';
+                btn.textContent = 'Yopish';
+            
+            }
+            else {
+                btnDiv.style.display = 'none';
+                btn.textContent = 'Ko\'proq';
+            }
+                
+            
+        })
+    </script>
     
 </body>
 </html>
